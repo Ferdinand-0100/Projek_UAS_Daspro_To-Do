@@ -1,0 +1,100 @@
+object Form1: TForm1
+  Left = 1613
+  Height = 1317
+  Top = 154
+  Width = 860
+  BorderStyle = bsDialog
+  Caption = 'To-DO List'
+  ClientHeight = 1317
+  ClientWidth = 860
+  DesignTimePPI = 192
+  LCLVersion = '3.6.0.0'
+  object Panel3: TPanel
+    Left = 72
+    Height = 1228
+    Top = 50
+    Width = 716
+    Caption = 'Panel3'
+    Color = clSilver
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 86
+    Height = 1200
+    Top = 64
+    Width = 689
+    ClientHeight = 1200
+    ClientWidth = 689
+    Color = 6184546
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    OnClick = Panel1Click
+    object Label1: TLabel
+      Left = 33
+      Height = 50
+      Top = 124
+      Width = 185
+      Caption = 'Halo, user!!'
+      Font.Color = clWhite
+      Font.Height = 50
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 264
+      Height = 32
+      Top = 1080
+      Width = 174
+      Caption = 'Tambah Jadwal'
+      Font.Color = clWhite
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object Button1: TButton
+    Left = 376
+    Height = 106
+    Top = 1028
+    Width = 112
+    Caption = '+'
+    Font.Height = 80
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    TabStop = False
+    OnClick = Button1Click
+  end
+  object Panel2: TPanel
+    Left = 86
+    Height = 100
+    Top = 64
+    Width = 689
+    Caption = 'TO-DO LIST'
+    Color = clBlack
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = 50
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Panel2Click
+  end
+  object ScrollBox1: TScrollBox
+    Left = 142
+    Height = 700
+    Top = 264
+    Width = 576
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    ParentBackground = False
+    TabOrder = 4
+    OnClick = ScrollBox1Click
+  end
+end
